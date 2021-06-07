@@ -67,6 +67,10 @@ body{
 }
 
 .navigation {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/images/kakashi-reading.jpg);
+    background-size: cover;    
     height: 100%;
     position: fixed;
     left: 0%;
@@ -101,12 +105,8 @@ body{
     border: solid 2px red;
 }
 
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+.navigation .navbtn {
+    color: #000;
   }
 
 .card{
