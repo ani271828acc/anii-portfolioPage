@@ -109,6 +109,10 @@ body{
     color: #000;
   }
 
+.navigation .navbtn:hover {
+    color: red;
+}
+
 .card{
     margin-left: auto;
     margin-right: auto;
